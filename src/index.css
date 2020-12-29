@@ -11,3 +11,72 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#body{
+  min-height: 30vh;
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.header {
+  background-color: black;
+  color:white;
+  width: 100vw;
+  height: 40vh;
+  text-align: center;
+  padding: 20px;
+}
+
+.header-title {
+  font-size: 20vh;
+
+}
+
+.header-text {
+  font-size: 8vh;
+}
+
+
+.section {
+  display:flex;
+  width: 80%;
+  flex-direction: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+
+.section > div {
+  padding: 30px;
+}
+
+.small-div {
+  width: 20%;
+}
+
+.big-div {
+  width: 50%;
+}
+.card-img {
+   width: 120%;
+}
+
+
+/* contact section */
+
+.contact-div {
+   display: flex;
+}
+
+
