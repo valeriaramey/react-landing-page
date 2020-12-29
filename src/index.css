@@ -76,7 +76,89 @@ code {
 /* contact section */
 
 .contact-div {
-   display: flex;
+  background-color: #F7D0E5;
+  width: 100%;
+
 }
+
+.contact-title {
+  font-size: 4vh;
+  text-align: center;
+  padding: 20px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+.contact-info-section {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 90vw;
+}
+
+.contact-info  span {
+  font-size: 22px;
+
+
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30vw;
+  margin-top: 0px;
+}
+
+.contact-input {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30vw;
+
+
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 10vw;
+  margin-bottom: 25px;
+}
+
+@media only screen and (min-width:320px) and (max-width:725px){
+  .contact-info-section{
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    width:80%;
+  }
+}
+
+.input-field {
+  padding: 5px;
+  margin: 5px 0;
+  height: 20px;
+}
+
+
+
+#text-area {
+  padding: 5px;
+  margin: 15px 0;
+}
+
+
+.contact-btn {
+  padding: 5px;
+  background-color: black;
+  color: white;
+  border: 0;
+}
+
+
+
+
+
+
 
 

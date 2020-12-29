@@ -83,23 +83,25 @@ const Card = (props) => {
 const ContactContainer = () => {
   return (
     <div className="contact-div">
-      <span className='contact-title'>
+      <div className='contact-title'>
         Contact us
-      </span>
+      </div>
+      <div className="contact-info-section">
       <div className="contact-info">
-        <h2>Contact us and we will get back to you soon</h2>
-        <h2>Brooklyn, NY</h2>
-        <h2>123-456-7890</h2>
-        <h2>company@gmail.com</h2>
+        <span>Contact us and we will get back to you within 24hrs.</span>
+        <span>Brooklyn, NY</span>
+        <span>
+          123-456-7890
+        </span>
+        <span>company@gmail.com</span>
       </div>
       <div className='contact-input'>
-        <span>
-            Contact
-        </span>
-
-        <input type="text" placeholder="email address" className="input-field"/>
-        <textarea name="" id="" cols="30" rows="10" placeholder="comment"></textarea>
-        <button className="contact-btn">Send</button>
+        <div className="contact-form">
+          <input type="text" placeholder="email address" className="input-field"/>
+          <textarea name="text" id="text-area" cols="30" rows="10" placeholder="comment"></textarea>
+          <button className="contact-btn">Send</button>
+        </div>
+       </div>
       </div>
     </div>
 
